@@ -1,0 +1,23 @@
+= Aplicaciones en la Nube y Microservicios
+
+== Microservicios
+
+Los microservicios son componentes distribuidos en nuestro sistema donde cada componente va otorgar una funcionalidad al resto del sistema.
+
+Uno de los motivos es el modularizar nuestro sistema a traves de los componentes.
+
+Una de las finalidades de esta arquitectura es que aunque se comuniquen entre estos modulos, cada microservicio sea independiente y que cada equipo en dicho microservicio decida las caracteristicas y el ambiente.
+
+== API
+Sirve para integrar y desarrollar el software. Es de las partes principales de la arquitectura de Microservicios.
+
+Frameworks para construir API's con java:
+
+. DropWizard
+. Spring Boot
+. WildFly Swarm
+. Vert.x
+[Nota]
+====
+Hacer un API de buena calidad, le dara longevidad.
+====
