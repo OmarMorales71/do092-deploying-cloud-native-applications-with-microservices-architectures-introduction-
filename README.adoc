@@ -21,3 +21,17 @@ Frameworks para construir API's con java:
 ====
 Hacer un API de buena calidad, le dara longevidad.
 ====
+
+== Autenticación
+
+=== Cliente SSO
+Permite entrar o acceder con una unica cuenta a los diferentes servicios del sistema.
+
+KeyClock es un mecanismo de autenticación.
+
+== Despliegue Azul/Verde
+Consiste en que al momento de desplegar una version de una aplicacion, cambiamos el apuntador de nuestro router de la vieja version(azul), a la nueva(verde) y asi ver los resultados. En caso de que el resultado no sea el esperado, se vuelve a  apuntar a la version azul.
+
+== Despliegue del Canario
+La nueva aplicación se introduce en el balanceador de carga y solo algunos usuarios veran los nuevos cambios. En caso de que los resultados no sean los esperados matamos esa version, es decir, la bajamos de produción.
+
